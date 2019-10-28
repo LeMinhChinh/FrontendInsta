@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+/* Main */
+
+main{
+    width: 100%;
+    height: 900px;
+}
+
+/* Left-Content */
+main div.left-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url('../Images/Iphone.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main div.slide{
+    position: relative;
+    margin: 240px 0px 0px 457px;
+    
+}
+/* Content */
+main div.content{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/* Register */
+main div.register{
+    border: 1px solid rgb(192, 190, 190);
+    width: 350px;
+    height: 590px;
+    margin:70px 0px 0px 20px;
+    border-radius:10px; 
+}
+div.logo{
+    width: 100%;
+    height: 80px;
+    background-image: url('../Images/insta.png');
+    background-repeat:no-repeat;
+    background-position: 55px 10px; 
+}
+main div.register h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: #999;
+    padding:10px 45px; 
+    text-align: center;
+}
+main div.register button.loginfb{
+    width: 80%;
+    height: 40px;
+    background-color: #3897f0;
+    border:0;
+    border-radius: 5px;
+    margin: 10px 40px;
+    color: white;
+    font-size: 15px;
+    background-image: url('../Images/images\ \(2\).png');
+    background-repeat:no-repeat;
+    background-position: 20px 7px; 
+}
+main div.register div.border-1{
+    border-top: 1px solid rgb(199, 197, 197);
+    width: 28%;
+    float: left;
+    margin:17px 0px 0px 40px;
+}
+main div.register div.document{
+    float: left;
+    margin: 10px 15.5px 0px 15.5px;
+    font-size: 15px;
+    color: gray;
+}
+main div.register div.border-2{
+    border-top: 1px solid rgb(199, 197, 197);
+    width: 28%;
+    float: left;
+    margin:17px 40px 0px 0px;
+}
+main div.clear{
+    clear: both;
+}
+main div.register input{
+    width: 270px;
+    height: 35px;
+    margin: 5px 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:solid 1px #efefef;
+    color: #262626;
+    background-color: #fafafa; 
+}
+main div.register button.regis{
+    width: 80%;
+    height: 40px;
+    background-color: #3897f0;
+    border:0;
+    border-radius: 5px;
+    margin: 10px 40px;
+    color: white;
+    font-size: 15px;
+}
+main div.register p.text{
+    font-size: 14px;
+    color: #999;
+    padding: 10px 60px 0px 60px;
+    text-align: center;
+}
+main div.register a.license{
+    color: #999;
+    
+}
+main div.register a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(117, 116, 116);
+}
+
+/* Login */
+main div.login{
+    border: 1px solid rgb(192, 190, 190);
+    width: 350px;
+    height: 80px;
+    margin: 10px 0px 0px 20px;
+    border-radius: 10px;
+}
+main div.login p{
+    text-align: center;
+    line-height: 80px;
+}
+main div.login a{
+    text-decoration: none;
+    color: rgb(51, 51, 243);
+}
+
+/* Download */
+main div.download{
+    width: 390px;
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Link download */
+main div.linkdownload div.link-1,
+main div.linkdownload div.link-2,
+main div.linkdownload div.link-3
+{
+    width: 130px;
+    height: 100%;
+    float: left;
+    margin: 10px 3px 0px 0px;
+}
+main div.linkdownload img.img1{
+    max-width: 130px;
+    max-height: 60px;
+    border-radius:5px; 
+}
+main div.linkdownload img.img2{
+    max-width: 130px;
+    max-height: 40px;
+    border-radius:5px; 
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: 100px;   
+}
+footer div.nav ul{
+    width: 70%;
+    height: 50px;
+    margin-left:15%;   
+    list-style: none;
+}
+footer div.nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+footer div.nav ul li a
+{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: #003569;
+    font-weight: 500;
+    border: 0;
+}
+footer span.select-leaguage{
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: #003569;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+}
+footer select.leaguage{
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+footer select{
+    border-color: rgb(169, 169, 169);
+    overflow: visible !important;
+}
+footer p
+{
+    padding-left:15%;
+    color: #999;
+    font-size: 12px;
+    margin-top: -20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
